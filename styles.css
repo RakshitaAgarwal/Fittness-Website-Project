@@ -1,0 +1,126 @@
+body {
+    font-family: 'Potta One', cursive;
+    /* color:white; */
+    margin: 0px;
+    padding: 0px;
+    background: url('bg2.jpg');
+    /* background-repeat: no-repeat; */
+}
+
+header {
+    background-color: rgb(250, 250, 250);
+}
+
+.left {
+    /* border:2px solid red; */
+    margin-top: 8px;
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 33px;
+}
+
+.left img {
+    width: 30px;
+    height: 30px;
+    /* below function converts black in to white and white into black. */
+    /* filter: invert(100%); */
+    display: block;
+    margin: auto;
+}
+
+.left div {
+    padding: 10px;
+    font-size: 10px;
+}
+
+.mid {
+    /* border:2px solid white; */
+    /* background-color: white; */
+    display: block;
+    width: 50%;
+    margin: 33px auto;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navbar li a:hover {
+    color: rgb(128, 128, 128);
+    /* text-decoration: underline; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 50px;
+    /* border:2px solid red; */
+    display: inline-block;
+}
+
+.btn {
+    font-family: 'Potta One', cursive;
+    margin: 0px 3px;
+    color: white;
+    background-color: Black;
+    padding: 6px 14px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: rgb(255, 255, 255);
+    border: 2px solid grey;
+    background-color: rgb(55, 55, 55);
+}
+
+.container {
+    border: 2px solid white;
+    color: white;
+    margin: 45px 45px;
+    padding: 15px;
+    width: 45%;
+    border-radius: 2px;
+    float: right;
+    /* position: absolute; */
+    /* right: 30px; */
+}
+
+.container h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.form-field label {
+    margin: initial;
+    padding: 10px;
+    width: 1500px;
+}
+
+.form-field input {
+    font-family: 'Potta One', cursive;
+    margin: 23px;
+    padding: 8px;
+    font-size: medium;
+    Width: 40%;
+}
+
+.form-button {
+    width: 28%;
+    margin: 23px auto;
+}
